@@ -1,18 +1,77 @@
-# School_District_Analysis
+Overview of the school district analysis: Explain the purpose of this analysis.
 
-Overview of Election Audit: Explain the purpose of this election audit analysis.
+The purpose of this analysis is to take the portion of the data out for the academic dishonesty and keep the rest of the data to analyze for trends. 
 
-Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+Results: Using bulleted lists and images of DataFrames as support, address the following questions.
 
+How is the district summary affected?
 
-How many votes were cast in this congressional election?
+The district analysis did  not changed when I calculated it without the Thomas High School ninth graders.
 
-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+District_analysis_all_schools.png
 
-Which county had the largest number of votes?
+District_analysis_new.png
 
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+How is the school summary affected?
 
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+From the original analysis Thomas High School the overall passing percentage for the school for all grades was 90.94%.
 
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+THS_all_grades_analysis.png
+
+When I calculated the overall passing percentage and took out the 461 ninth grade students the percentage went down to 90.63%.
+
+THS_10_11_12_analysis.png
+
+My conclusion is that the school summary was affected in a negative way when we remove the ninth grade students.
+
+How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
+From the original analysis Thomas High School the overall passing percentage for the school for all grades was 90.94%.
+
+THS_all_grades_analysis.png
+
+When I calculated the overall passing percentage and took out the 461 ninth grade students the percentage went down to 90.63%.
+
+THS_10_11_12_analysis.png
+
+My conclusion is that the school summary was affected in a negative way when we remove the ninth grade students.
+
+How does replacing the ninth-grade scores affect the following:
+
+Math and reading scores by grade
+The math and reading scores did not change.
+
+Math_score.png
+Math_score_new.png
+
+Reading_scores.png
+Reading_scores_new.png
+
+Scores by school spending
+The spending ranges per student did not change.
+
+The top pictures is the analysis with all grades. The bottom pictures is the analysis without ninth graders. 
+
+spending_analysis.png
+
+Scores by school size
+The scores by school changed in all columns. The average math scores, percent passing math, percent passing reading and percent overall passing went down. The average reading scores went up.
+
+The top pictures is the analysis with all grades. The bottom pictures is the analysis without ninth graders. 
+
+scores_by_school_analysis.png
+
+Scores by school type
+The scores by school type changed in all columns. The average math score, percent passing math and percent passing reading went down. The average reading score and overall passing percent went up.
+
+The top pictures is the analysis with all grades. The bottom pictures is the analysis without ninth graders.
+
+score_by_school_type_analysis.png
+ 
+Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+The four major changes in the new school district analysis are average math score, average reading score, percent passing math and percent passing reading. 
+
+The top pictures is the analysis with all grades. The bottom pictures is the analysis without ninth graders. As you can see the change is minimal. 
+
+Breakdown_of_analysis.png
